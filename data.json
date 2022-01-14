@@ -4249,5 +4249,15 @@
       "service": "internetconnectivity-ap-south-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Amazon Pinpoint (N. Virginia)",
+      "summary": "Pinpoint Sending/Receiving Delays",
+      "date": "1642185596",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:39 AM PST</span>&nbsp;We can confirm increased error rates and delivery latency for a subset of Pinpoint customers sending and receiving SMS messages via US toll-free numbers and some long codes. We are working with our partners to resolve this issue, and will continue to provide updates until the issue is fully resolved.</div><div><span class=\"yellowfg\">10:53 AM PST</span>&nbsp;We can confirm that long codes are not impacted, only US toll-free numbers are impacted.  We continue to work with our partners to fully resolve this issue.</div>",
+      "service": "pinpoint-us-east-1"
+    }
+  ]
 }
