@@ -910,5 +910,15 @@
       "service": "ec2-ap-northeast-2"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "AWS IoT Core (Oregon)",
+      "summary": "Increased API Errors and Latencies",
+      "date": "1651634279",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\"> 8:17 PM PDT</span>&nbsp;We are investigating increased error rates and latencies for Connect, Subscribe &amp; Publish operations in the US-WEST-2 Region.</div>",
+      "service": "awsiot-us-west-2"
+    }
+  ]
 }
