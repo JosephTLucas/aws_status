@@ -712,5 +712,15 @@
       "service": "cloudtrail-us-east-1"
     }
   ],
-  "current": []
+  "current": [
+    {
+      "service_name": "Multiple services (Oregon)",
+      "summary": "Increased API Errors",
+      "date": "1661361799",
+      "status": "1",
+      "details": "",
+      "description": "<div><span class=\"yellowfg\">10:23 AM PDT</span>&nbsp;We are investigating increased API error rates and latencies affecting some services within the US-WEST-2 Region. We are working to identify the root cause.</div>",
+      "service": "multipleservices-us-west-2"
+    }
+  ]
 }
