@@ -710,18 +710,18 @@
       "details": "",
       "description": "<div><span class=\"yellowfg\"> 1:07 PM PDT</span>&nbsp;We are investigating increased latency of CloudTrail events causing CloudTrail events processing delays in the US-EAST-1 Region starting at 9:33 AM PDT. CloudTrail customers in US-EAST-1 Region will receive events with delay as high as 4 hours.  All new events after 12:57 PM PDT will be processed immediately. ETA for backlog consumption is 3:30 PM PDT.</div><div><span class=\"yellowfg\"> 2:10 PM PDT</span>&nbsp;Between 09:33 AM and 12:57 PM PDT Increased latency of CloudTrail events in the US-EAST-1 Region causing CloudTrail events processing delays. We have resolved the issue all backlog events are in the process of backfilling will be completed by 3:30 PM PDT. The service is operating normally. </div>",
       "service": "cloudtrail-us-east-1"
-    }
-  ],
-  "current": [
+    },
     {
       "service_name": "Multiple services (Oregon)",
       "summary": "[RESOLVED] Increased API Errors",
       "date": "1661361799",
-      "status": "0",
+      "status": "1",
       "details": "",
       "description": "<div><span class=\"yellowfg\">10:23 AM PDT</span>&nbsp;We are investigating increased API error rates and latencies affecting some services within the US-WEST-2 Region. We are working to identify the root cause.</div><div><span class=\"yellowfg\">10:34 AM PDT</span>&nbsp;We can confirm increased API error rates and latencies affecting some services within the US-WEST-2 Region. The root cause appears to be increased error rates and latencies for API Gateway endpoints within the US-WEST-2 Region. Customers with API Gateway endpoints would be experiencing increased error rates and latencies for their requests. Customers calling Lambda via an API Gateway, would also be experiencing increased error rates and latencies for their function invocations. Other AWS services that use API Gateway - for example Batch, EKS, and EventBridge - are also experiencing increased error rates and latencies. Amazon Connect is experiencing increased call failure as well as issues with user login. We have identified the root cause and are working on a mitigation to resolve the issue.</div><div><span class=\"yellowfg\">10:39 AM PDT</span>&nbsp;We have addressed the root cause of the issue causing increased API error rates and latencies in the US-WEST-2 Region and are seeing recovery across affected API Gateway endpoints and AWS services.</div><div><span class=\"yellowfg\">10:53 AM PDT</span>&nbsp;Between 10:00 AM and 10:34 AM PDT we experienced increased API error rates and latencies affecting some services within the US-WEST-2 Region. The root cause of the event was increased error rates and latencies for API Gateway endpoints within the US-WEST-2 Region. Customers calling Lambda functions via an API Gateway, also experienced increased error rates and latencies for their function invocations. Other AWS services that use API Gateway - for example Batch, EKS, and EventBridge - also experienced increased error rates and latencies. Amazon Connect saw increased call failures as well as issues with user logins. We have resolved the root cause of the event and all affected API Gateway endpoints, Lambda functions, and AWS services have fully recovered. The issue has been resolved and the service is operating normally.</div>",
       "service": "multipleservices-us-west-2"
-    },
+    }
+  ],
+  "current": [
     {
       "service_name": "Amazon Elastic Container Service (N. Virginia)",
       "summary": "Amazon Elastic Container Service - Increased Rates of Insufficient Capacity Errors",
